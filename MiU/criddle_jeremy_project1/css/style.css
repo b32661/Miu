@@ -1,0 +1,113 @@
+/*   additem.html
+*    Jeremy Criddle
+*    MiU 1303	
+*    Project 1
+*/
+
+
+
+
+h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #F7ECC9;
+	background-color: #072111;
+}
+body {
+	background-image: url(../img/bkgTexture.png);
+	background-repeat: repeat;	
+}
+article {
+	padding: 5%;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: large;
+	
+}
+div {
+	background: #20421B;
+	/* Safari 5.1, Chrome 10+ */
+	background: -webkit-radial-gradient(circle, #008B00, #20421B);
+	/* Firefox 3.6+ */
+	background: -moz-radial-gradient(circle, #008B00, #20421B);
+	/* IE 10 */
+	background: -ms-radial-gradient(circle, #008B00, #20421B);
+	/* Opera 11.10+ */
+	background: -o-radial-gradient(circle, #008B00, #20421B);
+	color: #FFEBB8;
+	text-align: center;
+	width: 90%;
+	margin-right: 10%;
+	margin-left: 5%;
+	padding-bottom: 8px;
+	padding-top: 2px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	-webkit-box-shadow: 5px 5px 3px 4px rgba(0,0,0,0.5);
+	-moz-box-shadow: 5px 5px 3px 4px rgba(0,0,0,0.5);
+	box-shadow: 5px 5px 3px 4px rgba(0,0,0,0.5);
+	margin-bottom: 20px;
+}
+
+span {
+	color: #EB2917;
+	font-family: "Arial Black", Gadget, sans-serif;
+	vertical-align: sub;		
+}
+a {
+	color: rgba(235,41,24,1);
+	background-position: center;
+}
+h2 {
+	font-family: "Times New Roman", Times, serif;
+	color: #FEDE52;
+}
+header {
+	margin-top:5%;
+	margin-bottom: 5%;
+}
+nav {
+	background-color: #072111;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	margin-right: 40px;
+	margin-left: 40px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	-webkit-box-shadow: 3px 3px 1px 1px rgba(255,255,204,1);
+	-moz-box-shadow: 3px 3px 1px 1px rgba(255,255,204,1);
+	box-shadow: 3px 3px 1px 1px rgba(255,255,204,1);
+	padding-top: 2px;
+	padding-bottom: 20px;
+}
+ul {
+	text-align: justify;
+}
+
+li {
+	list-style-type: decimal;
+}
+label {
+	display: block;
+}
+fieldset {
+	margin-right: 5%;
+	margin-left: 5%;
+	border: medium ridge #F7ECC9;
+	-moz-border-radius: 2px;
+	border-radius: 2px;	
+}
+.buttons {
+	background-color: #FEDE52;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+}
+#asec {
+	margin-bottom: 10%;
+}
+a:hover{
+	background-color: rgba(0,255,0,1);	
+}
+#items {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-transform: lowercase;
+}
+
